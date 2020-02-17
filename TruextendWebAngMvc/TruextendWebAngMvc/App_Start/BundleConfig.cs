@@ -22,6 +22,14 @@ namespace TruextendWebAngMvc
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
+            bundles.Add(new ScriptBundle("~/bundles/angularJs").Include(
+                      "~/Scripts/angular.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/miPackJs").Include(
+                     "~/Scripts/app/Modul.js",
+                     "~/Scripts/app/StudentApp.js",
+                     "~/Scripts/app/Servicios.js",
+                     "~/Scripts/app/Controlador.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
